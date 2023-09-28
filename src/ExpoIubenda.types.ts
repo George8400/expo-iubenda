@@ -1,7 +1,7 @@
 export type ChangeEventPayload = {
-  value: string;
+	value: string;
 };
 
 export type ExpoIubendaViewProps = {
-  name: string;
+	name: string;
 };

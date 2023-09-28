@@ -1,4 +1,5 @@
 import ExpoModulesCore
+import iubenda
 
 public class ExpoIubendaModule: Module {
   // Each module class must implement the definition function. The definition consists of components
@@ -20,7 +21,7 @@ public class ExpoIubendaModule: Module {
 
     // Defines a JavaScript synchronous function that runs the native code on the JavaScript thread.
     Function("hello") {
-      return "Hello world! 👋"
+      return "Ciao mondo! 👋"
     }
 
     // Defines a JavaScript function that always returns a Promise and whose native code
